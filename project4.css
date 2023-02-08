@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 10vh;
+    width: 100wh;
+    background-image:  url(bg.png);
+   background-size: cover;
+   
+}
+
+header{
+    width: 10wh;
+    height: 10%;
+   
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+nav img {
+    width: 150px;
+    height: 50px;
+    margin-left: 60px;
+    margin-right: 500px;
+    padding-right: 50px;
+    border-right: 2px solid white;
+    cursor: pointer;
+ 
+}
+nav ul{
+    display: flex;
+    /* flex-grow: 1; */
+    margin-left: -1200px;
+   
+
+}
+nav ul li {
+   list-style: none;
+  padding-left: 50px;
+     
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: capitalize;
+    
+ 
+}
+.btn{
+    padding: 5px 18px;
+    margin-right: 50px;
+    background: #ba0cc5;
+    border-radius: 6px;
+    border: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+section{
+    position: absolute;
+    top: 30%;
+    bottom: 50%;
+    left: 28%;
+    right: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 98px;
+    text-align: center;
+    color: #ffffff;
+    
+}
+section h1 {
+    text-transform: capitalize;
+    margin-bottom: -40px;
+    margin-top: -30px
+}
+section p{
+    text-transform: capitalize;
+    font-size: 20px;
+
+
+}
+section h2{
+    text-transform: capitalize;
+}
+
+section .btn2{
+    display: inline-block;
+    padding: 5px 15px;
+    margin-right: 50px;
+    background: #ba0cc5;
+    border-radius: 6px;
+    border: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    text-transform: capitalize;
+
+}
+
+
